@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Blogum</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Benim Blogum</h1>
+
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <h2>Hoş Geldiniz</h2>
+
+    <p>
+        Yazılım, teknoloji ve günlük hayat hakkında
+        yazılarımı burada paylaşıyorum.
+    </p>
+
+    <input
+        type="text"
+        id="arama"
+        placeholder="Yazı Ara..."
+        onkeyup="ara()">
+
+</section>
+
+<section id="bloglar">
+
+    <div class="kart">
+        <h3>HTML Öğreniyorum</h3>
+
+        <p>
+            HTML'in temel etiketlerini öğrenmeye başladım.
+        </p>
+
+        <a href="blog1.html">
+            Devamını Oku →
+        </a>
+
+    </div>
+
+    <div class="kart">
+
+        <h3>CSS ile Tasarım</h3>
+
+        <p>
+            CSS sayesinde sayfalar çok daha güzel oluyor.
+        </p>
+
+        <a href="blog2.html">
+            Devamını Oku →
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Benim Blogum
+
+    <br><br>
+
+    <button onclick="temaDegistir()">
+        🌙 Koyu Tema
+    </button>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
